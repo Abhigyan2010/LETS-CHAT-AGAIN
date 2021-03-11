@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <title>LetsChat Rooms</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="room.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="room.css">
+    </head>
+    <body>
+        <button class="glyphicon glyphicon-log-out btn btn-danger" onclick="log_out()">&nbsp;&nbsp;Logout</button>
+        <br>
+        <br>
+        <img class="img-responsive" src="Logo.png">
+        <br>
+        <br>
+        <label id="username"></label>
+        <br>
+        <br>
+        <input id="Room_name" class="form-control" placeholder="Room Name">
+        <br>
+        <br>
+        <button class="btn btn-success" onclick="add_room()">Add Room!</button>
+        <br>
+        <br>
+        <div id="Prooms">
+        </div>
+        <script src="room.js"></script>
+    </body>
+</html>
